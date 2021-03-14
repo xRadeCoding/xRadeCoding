@@ -6,4 +6,4 @@
 - 👯 I’m looking to collaborate on Discord.
 - 🤔 I’m looking for help with Ethical Hacking
 - 💬 Ask me about Everything.
-- 📫 How to reach me: Discord - @</xRadeCoding>#1071 Twitter - @CodingRade 
+- 📫 How to reach me: [Twitter - @CodingRade](https://twitter.com/CodingRade) [Instagram - @xRadeCoding](https://www.instagram.com/xradecoding/)
