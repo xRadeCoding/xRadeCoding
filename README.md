@@ -1,5 +1,5 @@
 # Introduction
-- 💻 Proud developer of [xRadeCoding, VO1DCod1ng]
+- 💻 Proud developer of xRadeCoding, VO1DCOD1NG
 - 🌱 Learning new things every day
 - 👨‍💻 Works on learing thing
 
@@ -17,8 +17,4 @@
 * Website: [xRadeCoding](https://xRadeCoding.be/) [VO1DCOD1NG](https://vo1dcod1ng.be/)
 * Discord: 𝐕𝟎𝟏𝐃#1071
 * VO1DCod1ng Community server: [Invite](https://discord.gg/yA2ZWrMv)
-* E-mail: Contact@xRadeCoding.be, info@vo1DCod1ng.be
-
-<a href="https://top.gg/bot/">
-  <img src="https://top.gg/api/widget/.svg" alt="" />
-  </a>
+* E-mail: Contact@xRadeCoding.be, info@vo1dcod1ng.be
