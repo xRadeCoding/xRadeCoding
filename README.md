@@ -1,11 +1,14 @@
 
+![ alt text](https://img.shields.io/twitter/follow/xRadeCoding?logo=twitter&amp;style=for-the-badge)
+
+```Java
 public class Kenji extends GitHubUser {
 
   public Kenji() {
-    super("xRadeCoding", "The Netherlands");
+    super("xRadeCoding", "The Belgium");
 
     this.addLanguage("Java", "Python", "C", "C++", "C#", "Javascript");
-    this.addExperience("MoonMC", "ZortusRP");
+    this.addExperience("ZortusRP", "MoonMC", "SaturnusMC", "GappleNetwork");
   }
 }
 
@@ -30,3 +33,4 @@ public abstract class GitHubUser {
       this.experiences.addAll(experience);
   }
 }
+```
