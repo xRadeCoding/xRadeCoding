@@ -34,3 +34,6 @@ public abstract class GitHubUser {
   }
 }
 ```
+<img src="github-readme-stats.vercel.app/api/top-langs/?username=xRadeCoding&amp;theme=dark&amp;count_private=true" />
+
+<img src="https://github-readme-stats.vercel.app/api?username=xRadeCoding=&show_icons=true" />
