@@ -9,7 +9,7 @@ public class Kenji extends GitHubUser {
     super("xRadeCoding", "The Belgium");
 
     this.addLanguage("Java", "Python", "C", "C++", "C#", "Javascript", "LUA", "PHP", "HTML", "CSS", "Typescript", "Assembly","Ruby","Kotlin");
-    this.addOperatingSystem("Windows","Kali Linux","Ubuntu")
+    this.addOperatingSystem("Windows","Kali Linux","Ubuntu");
     this.addExperience("ZortusRP", "SaturnusMC", "GappleNetwork, ZoutePopcorn", "AvantisRP", "Tedeapolis");
   }
 }
@@ -20,6 +20,7 @@ public abstract class GitHubUser {
   @Getter private final String country;
 
   private Set<String> languages = new HashSet<>();
+  private Set<String> operatingsystem = new HashSet<>();
   private Set<String> experiences = new HashSet<>();
 
   public GitHubUser(String username, String country) {
@@ -29,6 +30,10 @@ public abstract class GitHubUser {
 
   public void addLanguage(String... language) {
       this.languages.addAll(language);
+  }
+
+  public void addOperatingSystem(String... operatingsystem) {
+      this.operatingsystem.addAll(operatingsystem);
   }
   
   public void addExperience(String... experience) {
