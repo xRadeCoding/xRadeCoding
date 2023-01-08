@@ -35,5 +35,4 @@ public abstract class GitHubUser {
 }
 ```
 ![Github stats](https://github-readme-stats.vercel.app/api?username=xRadeCoding&amp;theme=dark&ampg&show_icons=true&include_all_commits=true&locale=nl&count_private=true)
-![Top talen](https://github-readme-stats.vercel.app/api/top-langs/?username=xRadeCoding&amp;theme=dark&amp;count_private=true)
 ![Discord Presence](https://lanyard.cnrad.dev/api/804851980878086152)
