@@ -1,5 +1,6 @@
 
 ![ alt text](https://img.shields.io/twitter/follow/xRadeCoding?logo=twitter&amp;style=for-the-badge)
+![Count](https://komarev.com/ghpvc/?username=xRadeCoding&color=brightgreen)
 
 ```Java
 public class Kenji extends GitHubUser {
@@ -36,5 +37,4 @@ public abstract class GitHubUser {
 ```
 ![Github stats](https://github-readme-stats.vercel.app/api?username=xRadeCoding&amp;theme=dark&ampg&show_icons=true&include_all_commits=true&locale=nl&count_private=true)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xRadeCoding&amp;theme=dark)](https://github.com/xRadeCoding/xRadeCoding)
-![Count](https://komarev.com/ghpvc/?username=xRadeCoding&color=brightgreen)
 
