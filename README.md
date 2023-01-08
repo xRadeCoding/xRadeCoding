@@ -8,7 +8,8 @@ public class Kenji extends GitHubUser {
   public Kenji() {
     super("xRadeCoding", "The Belgium");
 
-    this.addLanguage("Java", "Python", "C", "C++", "C#", "Javascript", "LUA", "PHP", "HTML", "CSS", "Typescript", "Assembly");
+    this.addLanguage("Java", "Python", "C", "C++", "C#", "Javascript", "LUA", "PHP", "HTML", "CSS", "Typescript", "Assembly","Ruby","Kotlin");
+    this.addOperatingSystem("Windows","Kali Linux","Ubuntu")
     this.addExperience("ZortusRP", "SaturnusMC", "GappleNetwork, ZoutePopcorn", "AvantisRP", "Tedeapolis");
   }
 }
