@@ -10,7 +10,7 @@ public class Kenji extends GitHubUser {
 
     this.addLanguage("Java", "Python", "C", "C++", "C#", "Javascript", "LUA", "PHP", "HTML", "Sass",  "CSS", "Typescript", "Assembly", "Ruby", "Kotlin", "GO", "Rust");
     this.addOperatingSystem("Windows","Kali Linux","Ubuntu");
-    this.addExperience("ZortusRP", "SaturnusMC", "GappleNetwork, ZoutePopcorn", "AvantisRP", "Tedeapolis");
+    this.addExperience("ZortusRP", "SaturnusMC", "GappleNetwork, ZoutePopcorn", "AvantisRP");
   }
 }
 
