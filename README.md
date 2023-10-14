@@ -5,40 +5,39 @@
 ```Java
 public class Kenji extends GitHubUser {
 
-  public Kenji() {
-    super("xRadeCoding", "The Belgium");
-
-    this.addLanguage("Java", "Python", "C", "C++", "C#", "Javascript", "LUA", "PHP", "HTML", "Sass",  "CSS", "Typescript", "Assembly", "Ruby", "Kotlin", "GO", "Rust");
-    this.addOperatingSystem("Windows","Kali Linux","Ubuntu");
-    this.addExperience("ZortusRP", "SaturnusMC", "GappleNetwork, ZoutePopcorn", "AvantisRP", "Tedeapolis");
-  }
+    public Kenji() {
+        super("xRadeCoding", "The Belgium");
+        this.addLanguage("Java", "Python", "C", "C++", "C#", "Javascript", "LUA", "PHP", "HTML", "Sass",  "CSS", "Typescript", "Assembly", "Ruby", "Kotlin", "GO", "Rust");
+        this.addOperatingSystem("Windows","Kali Linux","Ubuntu");
+        this.addExperience("ZortusRP", "SaturnusMC", "GappleNetwork, ZoutePopcorn", "AvantisRP", "Tedeapolis");
+    }
 }
 
 public abstract class GitHubUser {
 
-  @Getter private final String username;
-  @Getter private final String country;
+    @Getter private final String username;
+    @Getter private final String country;
 
-  private Set<String> languages = new HashSet<>();
-  private Set<String> operatingsystem = new HashSet<>();
-  private Set<String> experiences = new HashSet<>();
+    private Set<String> languages = new HashSet<>();
+    private Set<String> operatingSystem = new HashSet<>();
+    private Set<String> experiences = new HashSet<>();
 
-  public GitHubUser(String username, String country) {
-      this.name = username;
-      this.country = country;
-  }
+    public GitHubUser(String username, String country) {
+        this.username = username;
+        this.country = country;
+    }
 
-  public void addLanguage(String... language) {
-      this.languages.addAll(language);
-  }
+    public void addLanguage(String... language) {
+        Collections.addAll(this.languages, language);
+    }
 
-  public void addOperatingSystem(String... operatingsystem) {
-      this.operatingsystem.addAll(operatingsystem);
-  }
-  
-  public void addExperience(String... experience) {
-      this.experiences.addAll(experience);
-  }
+    public void addOperatingSystem(String... operatingSystem) {
+        Collections.addAll(this.operatingSystem, operatingSystem);
+    }
+
+    public void addExperience(String... experience) {
+        Collections.addAll(this.experiences, experience);
+    }
 }
 ```
 ![Github stats](https://github-readme-stats.vercel.app/api?username=xRadeCoding&amp;theme=dark&ampg&show_icons=true&include_all_commits=true&locale=nl&count_private=true)
